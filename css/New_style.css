@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Tahoma;
+}
+main
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.clear
+{
+    clear: both;
+}
+.container
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: auto;
+}
+.first_header
+{
+    background: #044a54;
+    line-height: 30px;
+    text-align: right;
+}
+.first_header ul
+{
+    list-style: none;
+}
+.first_header ul li
+{
+    padding-left: 5px;
+    display: inline-block;
+}
+.first_header ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.second_header
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.first_logo
+{
+    margin-top: 1.5em;
+    padding: 1em;
+    width: 15%;
+    float: left;
+}
+.first_logo img
+{
+    width: 100%;
+}
+.second_logo
+{
+    margin: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 15%;
+    float: left;
+}
+.second_logo img
+{
+    width: 100%;
+}
+.menu
+{
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 4em;
+    width: 65%;
+}
+.menu ul
+{
+    list-style: none;
+}
+.menu ul li
+{
+    padding-left: 2em;
+    display: inline-block;
+}
+.menu ul li a
+{
+    color: slateblue;
+    text-decoration: none;
+}
+.slider
+{
+    width: 100%;
+}
+.slider img
+{
+    width: 100%;
+    max-width: 100%;
+}
+.first_page_header
+{
+    margin: 0 auto;
+    padding: 1em 0;
+    background: whitesmoke;
+}
+.first_block
+{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.sub_block h1
+{
+    color: slateblue;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.sub_block p
+{
+    line-height: 40px;
+    text-align: justify;
+    padding-bottom: 0 2em;
+    box-sizing: border-box;
+    padding-right: 1em;
+}
+.sub_block img
+{
+    margin-top: 3.8em;
+    margin-bottom: 1em;
+}
+.advance_page
+{
+    padding: 2em 0;
+}
+.second_block
+{
+    padding: 1em 0;
+    text-align: center; 
+}
+.second_block h2
+{
+    color: black;
+    font-size: 2em;
+}
+.second_block h4
+{
+    font-style: italic;
+    padding: 12px 0;
+    font-size: 18px;
+    color: slateblue;
+}
+.second_block p
+{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: slateblue;
+}
+.why_join
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1em;
+    
+}
+.join_content h2
+{
+    color: slateblue;
+    padding-bottom: 1em 0;
+    font-size: 1.1em;
+}
+.join_content h4
+{
+    color: slateblue;
+    font-size: 1.2em;
+    padding: .5em 0;
+}
+.join_content p
+{
+    text-align: justify;
+    line-height: 36px;
+    padding-bottom: 13px;
+}
+.sub_course_head
+{
+    text-align: center;
+    margin: 1em 0;
+}
+.sub_course_head h2
+{
+    font-size: 2.2em;
+    padding: 10px 0;
+    text-shadow: 1px 3px 5px slateblue;
+}
+.sub_course_head p
+{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 65%;
+    line-height: 20px;
+    text-align: center;
+}
+.main_course
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2em;
+}
+.course_content
+{
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    border-top: none;
+    padding: 1em;
+    margin-top: -3px;
+}
+.course_content a
+{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    padding: 12px 0;
+}
+.course_content p
+{
+    text-align: justify;
+    padding: .5em 0;
+}
+.course_content button
+{
+    background: slateblue;
+    color: white;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+.course_content button:hover
+{
+    color: white;
+    background: red;
+    border-radius: 3px;
+}
+.joint_content
+{
+    margin-top: 1em;
+    background: darkred;
+}
+.joint_content h2
+{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 12px 0;
+    background:red;
+    width: 50%;
+    margin: 0 auto;   
+}
+.base_join
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+}
+.base_join img
+{
+    padding: 1.2em;
+    margin: 0 auto;
+}
+.base_join_list ul
+{
+    list-style: none;
+    margin-top: 1.5em;
+}
+.base_join_list ul li
+{
+   padding: 1.6em 0;
+   position: relative;
+}
+.base_join_list ul li:before
+{
+    content: url(..//image/click.gif);
+	position: absolute;
+    left: -15%;
+    top: 18px;
+}
+.base_join_list ul li a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 12px;
+}
+.promo
+{
+    padding: 1em 0 1.2em 0;
+    text-align: center;
+}
+.promo h3
+{
+    padding-bottom: 10px;
+}
+.testimonial
+{
+    background: url(../image/new.gif);
+    padding: 8em 0;
+}
+.testimonial h4
+{
+    text-align: center;
+	font-size: 1.8em;
+	color: white;
+    padding: 1em 0;
+}
+.testi_sub
+{
+    display: grid;
+	box-sizing: border-box;
+	grid-template-columns: auto auto;
+	grid-gap: 3em;
+}
+.testi_block
+{
+	background: white;
+	box-sizing: border-box;
+	padding: 2.5em;
+}
+.testi_block img
+{
+    width: 100px;
+}
+.testi_block h4
+{
+    color: black;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+.testi_block figcaption
+{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+footer
+{
+    background: linear-gradient(to top, #044a54,#475207);
+	padding: 2em 0;
+}
+.footer_logo
+{
+    text-align: center;
+}
+.footer_sub
+{
+    display: grid;
+	grid-template-columns:auto auto auto auto;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 2em;
+}
+.footer_block
+{
+    padding: 1em 0;
+}
+.footer_block h3
+{
+    padding: 10px 0;
+    color: white;
+}
+.footer_block address
+{
+    color: white;
+    line-height: 1.5em;
+}
+.footer_block address a
+{
+    color: lightseagreen;
+}
+.ending_block
+{
+    background: lightseagreen;
+    text-align: center;
+    padding: 1em 0;
+}
+.ending_block p
+{
+    color: white;
+    position: relative;
+}
+.ending_block a
+{
+    color: black;
+    text-decoration: none;
+}
+.ending_block ul
+{
+    list-style: none;
+}
+.ending_block ul li
+{
+    display: inline-block;
+    color: white;
+    border-right: 1px solid black;
+    padding-right: 4px;
+}
+.logic
+{
+    border-right: none!important;
+}
+span
+{
+    color: #044a54;
+}
